@@ -198,7 +198,8 @@ a:hover {
   box-shadow: 0px 2px 5px 2px ;
 }
 
-.contacts {
+.contacts,
+.tech-skills {
   margin-bottom: 40px;
   text-align: center;
 }
@@ -221,6 +222,27 @@ a:hover {
   line-height: 24px;
   text-decoration: none;
 }
+
+.tech-skills__list {
+  color: var(--background-primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+}
+
+/* .tech-skills__item {
+  color: #fb6d3a;
+}
+
+.tech-skill__text {
+  color: #ffffff;
+  width: 72px;
+  height: 168px;
+  left: 96px;
+  top: 650px;
+} */
 
 /* * {
   margin: 0;
