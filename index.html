@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/b96c84093e.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Résumé</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,6 +16,7 @@
 <body>
   <div class="main">
     <div class="main-content">
+      <!-- about -->
       <section class="about">
         <h1 class="about-name-class">Maksym Rohivskyi</h1>
         <h2 class="about-position">Full Stack Developer</h2>
@@ -33,6 +36,7 @@
         </p>
       </section>
 
+      <!-- projects -->
       <section class="projects">
         <h3 class="title">
           PROJECT EXPERIENCE
@@ -138,6 +142,7 @@
         </ul>
       </section>
 
+      <!-- work -->
       <section class="work">
         <h3 class="title">WORK EXPERIENCE</h3>
         <ul class="projects-list">
@@ -168,6 +173,7 @@
         </ul>
       </section>
       
+      <!-- education -->
       <section class="work">
         <h3 class="title">EDUCATION</h3>
         <ul class="projects-list">
@@ -206,6 +212,111 @@
         </ul>
       </section>
     </div>
+
+    <!-- sidebar -->
+    <aside class="sidebar">
+      <img class="sidebar-avatar" src="asset/img/avatar.jpg" alt="avatar">
+      
+      <!-- contacts -->
+      <div class="contacts">
+        <h3 class="sidebar-title">CONTACT INFORMATION</h3>
+        <div>
+          <p>
+            <span style='font-size:16px; color:#1e2939' class='fas'>&#xf879;</span>
+            <a href="tel:+380938718375" class="contact-link">+38 093 87 18 375</a>
+          </p>
+          <p>
+            <span style='font-size:16px; color:#1e2939' class="material-icons">&#xe0be;</span>
+            <a href="mailto:maxrogivsky@gmail.com" class="contact-link">maxrogivsky@gmail.com</a>
+          </p>
+          <p>
+            <span style='font-size:16px; color:#1e2939' class='fab'>&#xf09b;</span>
+            <a href="https://github.com/MaxRohivskyi" class="contact-link">GitHub</a>
+          </p>
+          <p>
+            <span style='font-size:16px; color:#1e2939' class='fab'>&#xf08c;</span>
+            <a href="https://www.linkedin.com/in/max-rohivskyi/" class="contact-link">Linkedin</a>
+          </p>
+          <p>
+            <span style='font-size:16px; color:#1e2939' class='fab'>&#xf16d;</span>
+            <a href="https://www.instagram.com/saint_electric/" class="contact-link">instagram</a>
+          </p>
+          <p>
+            <span style='font-size:16px; color:#1e2939' class="material-icons">&#xe0c8;</span>
+            <a href="https://goo.gl/maps/btovvsYiQ7pRWmRC9" class="contact-link">Lviv, Ukraine</a>
+          </p>
+        </div>
+      </div>
+      
+      <!-- tech-skills -->
+      <div class="tech-skills">
+        <h3 class="sidebar-title">TECH SKILLS</h3>
+        <ul class="tech-skills__list">
+          <li>
+            <span>HTHTML5/CSS3/ JavaScript/TypeScriptML</span>
+          </li>
+          <li>
+            <span>React/Redux/Redux Toolkit</span>
+          </li>
+          <li>
+            <span>Vite/Webpack/Parcel/GIT</span>
+          </li>
+          <li>
+            <span>Node.js/Express/SendGrid</span>
+          </li>
+          <li>
+            <span>MongoDB/MsSQL/Mongoose</span>
+          </li>
+          <li>
+            <span>Anime characters zodiac signs</span>
+          </li>
+          <li>
+            <span>35 pull-ups/50 push-ups on bars</span>
+          </li>
+          <li>
+            <span>108 laps of Surya Namaskar</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- soft-skills -->
+      <div class="soft-skills">
+        <h3 class="sidebar-title">SOFT SKILLS</h3>
+        <ul class="tech-skills__list">
+          <li>
+            <span>Scrum/Agile/GTD</span>
+          </li>
+          <li>
+            <span>Teamwork/Flexible/Hardworking</span>
+          </li>
+          <li>
+            <span>Creative/Eager to learn/Enthusiastic</span>
+          </li>
+          <li>
+            <span>Risk taking/Googling/GPTing</span>
+          </li>
+          <li>
+            <span>Ability to speak with gypsies, recite poetry to them</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- languages -->
+      <div class="languages">
+        <h3 class="sidebar-title">LANGUAGES</h3>
+        <ul class="tech-skills__list">
+          <li>
+            <p>English - Intermediate</p>
+          </li>
+          <li>
+            <p>Ukrainian - Native</p>
+          </li>
+          <li>
+            <p>A few words in cat and Japanese</p>
+          </li>
+        </ul>
+      </div>
+    </aside>
   </div>
 </body>
 
