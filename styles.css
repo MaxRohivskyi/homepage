@@ -27,29 +27,29 @@ a:hover {
 }
 
 .main {
-	display: flex;
-	flex-direction: row-reverse;
-	margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
   width: 1200px;
   background-color: var(--background-primary);
 }
 
 .main-content {
-	box-shadow: 6px 6px 20px rgba(0 0 0 / 10%);
-	padding: 40px 90px;
+  box-shadow: 6px 6px 20px rgba(0 0 0 / 10%);
+  padding: 40px 90px;
 }
 
 .about {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about-position {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
   color: var(--primary-text-color);
   font-style: normal;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 27px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
 }
 
 .about-position::after {
@@ -64,30 +64,30 @@ a:hover {
 .about-name-class {
   margin-bottom: 25px;
   color: var(--background-secondary);
-	font-style: normal;
-	font-weight: bold;
-	font-size: 45px;
-	line-height: 55px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
 }
 
 .about-description {
   color: var(--secondary-text-color);
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .title {
   margin-bottom: 10px;
   color: var(--primary-text-color);
   font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 27px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
 }
 
-.title::after{
+.title::after {
   content: '';
   display: block;
   width: 100%;
@@ -97,29 +97,30 @@ a:hover {
 }
 
 .projects {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .projects-list {
-	padding: 0;
-	margin-left: 15px;
+  padding: 0;
+  margin-left: 15px;
 }
 
 .projects-item {
   color: var(--primary-text-color);
-	font-style: normal;
-	font-weight: bold;
-	font-size: 10px;
-	line-height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 24px;
 }
 
 .projects,
-.project-link, .project-back {
+.project-link,
+.project-back {
   color: var(--primary-text-color);
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 .project-link {
@@ -129,10 +130,10 @@ a:hover {
 
 .project-bracket {
   color: var(--text-decoration-color);
-	font-style: normal;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .projects-text {
@@ -143,7 +144,7 @@ a:hover {
   line-height: 24px;
 }
 
-.work{
+.work {
   margin-bottom: 20px;
 }
 
@@ -183,7 +184,7 @@ a:hover {
   margin: 30px auto;
   width: 240px;
   object-fit: cover;
-  box-shadow: 0 2px 5px 2px ;
+  box-shadow: 0 2px 5px 2px;
 }
 
 .contacts,
