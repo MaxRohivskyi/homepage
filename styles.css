@@ -14,14 +14,16 @@ body {
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
-  --icon-color: #6a737d;
-  --border-color: #ff9a0045;
   --text-decoration-color: #ff9a00;
 }
 
 ul li::marker {
   color: var(--text-decoration-color);
   font-size: 1.5em;
+}
+
+a:hover {
+  color: var(--primary-text-color);
 }
 
 .main {
@@ -35,11 +37,11 @@ ul li::marker {
 
 .main-content {
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-	padding: 100px 90px;
+	padding: 40px 90px;
 }
 
 .about {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .about-position {
@@ -102,7 +104,7 @@ ul li::marker {
 }
 
 .projects {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .projects-list {
@@ -150,7 +152,7 @@ ul li::marker {
 }
 
 .work{
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .work-position {
@@ -179,6 +181,45 @@ ul li::marker {
   font-weight: normal;
   font-size: 14px;
   line-height: 10px;
+}
+
+.sidebar {
+  padding: 20px;
+
+  background-color: var(--background-secondary);
+}
+
+.sidebar-avatar {
+  border-radius: 50%;
+  margin: 30px auto;
+  width: 240px;
+
+  object-fit: cover;
+  box-shadow: 0px 2px 5px 2px ;
+}
+
+.contacts {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sidebar-title {
+  margin-bottom: 10px;
+
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.contact-link {
+  color: var(--background-primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
 }
 
 /* * {
