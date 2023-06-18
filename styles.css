@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.5;
 
   --background-primary: #fff;
@@ -31,12 +31,11 @@ a:hover {
 	flex-direction: row-reverse;
 	margin: 0 auto;
   width: 1200px;
-
   background-color: var(--background-primary);
 }
 
 .main-content {
-	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 6px 6px 20px rgba(0 0 0 / 10%);
 	padding: 40px 90px;
 }
 
@@ -46,7 +45,6 @@ a:hover {
 
 .about-position {
 	margin-bottom: 20px;
-
   color: var(--primary-text-color);
   font-style: normal;
 	font-weight: bold;
@@ -59,14 +57,12 @@ a:hover {
   display: block;
   width: 100%;
   height: 4px;
-
   background-color: var(--background-secondary);
   border-radius: 4px;
 }
 
 .about-name-class {
   margin-bottom: 25px;
-
   color: var(--background-secondary);
 	font-style: normal;
 	font-weight: bold;
@@ -76,7 +72,6 @@ a:hover {
 
 .about-description {
   color: var(--secondary-text-color);
-
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -85,7 +80,6 @@ a:hover {
 
 .title {
   margin-bottom: 10px;
-
   color: var(--primary-text-color);
   font-style: normal;
 	font-weight: bold;
@@ -98,7 +92,6 @@ a:hover {
   display: block;
   width: 100%;
   height: 4px;
-  
   background-color: var(--background-secondary);
   border-radius: 4px;
 }
@@ -144,7 +137,6 @@ a:hover {
 
 .projects-text {
   color: var(--secondary-text-color);
-  
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -157,7 +149,6 @@ a:hover {
 
 .work-position {
   margin-bottom: 10px;
-
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: bold;
@@ -175,7 +166,6 @@ a:hover {
 
 .period {
   margin-bottom: 10px;
-
   color: var(--durability-text-color);
   font-style: normal;
   font-weight: normal;
@@ -185,7 +175,6 @@ a:hover {
 
 .sidebar {
   padding: 20px;
-
   background-color: var(--background-secondary);
 }
 
@@ -193,9 +182,8 @@ a:hover {
   border-radius: 50%;
   margin: 30px auto;
   width: 240px;
-
   object-fit: cover;
-  box-shadow: 0px 2px 5px 2px ;
+  box-shadow: 0 2px 5px 2px ;
 }
 
 .contacts,
@@ -208,7 +196,6 @@ a:hover {
 
 .sidebar-title {
   margin-bottom: 10px;
-
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: bold;
@@ -225,7 +212,7 @@ a:hover {
   text-decoration: none;
 }
 
-.tech-skills__list {
+.tech-skills-list {
   color: var(--background-primary);
   font-style: normal;
   font-weight: normal;
